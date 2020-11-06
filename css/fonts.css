@@ -1,0 +1,8 @@
+@font-face 
+	font-family: 'Roboto';
+	src: url('../fonts/roboto_black.eot')
+        url('../fonts/roboto_black.eot?#iefix') format('embedded-opentype')
+		url('../fonts/roboto_black.woff2') format('woff2')
+		url('../fonts/roboto_black.woff') format('woff')
+		url('../fonts/roboto_black.ttf') format('truetype')
+		url('../fonts/roboto_black.svg#roboto_black') format('svg')
