@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,53 +8,121 @@
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
 </head>
+
 <body>
-    
+
     <header>
         <nav>
-            <ul class="navbar">
-                <div class="logo">
-                    <img src="img/Logo.png" alt="Logo" class="logo__img">
-                    <div class="logo__label">
-                        <a href="#">Tajam</a>
-                    </div>    
-                </div>
-                <li class="navbar__items">
-                    
-                    <div class="navbar__links">
-                        <div class="navbar__link"><a href="#">HOME</a></div>
-                        <div class="navbar__link"><a href="#">ABOUT</a></div>
-                        <div class="navbar__link"><a href="#">EXPERTISE</a></div>
-                        <div class="navbar__link"><a href="#">TEAMS </a></div>
-                        <div class="navbar__link"><a href="#">WORKS</a></div>
-                        <div class="navbar__link"><a href="#">PEOPLE SAY</a></div>
-                        <div class="navbar__link"><a href="#">CONTACT</a></div>
+            <div class="container-fluid">
+                <ul class="navbar">
+                    <div class="logo">
+                        <img src="img/Logo.png" alt="Logo" class="logo__img">
+                        <div class="logo__label">
+                            <a href="#">Tajam</a>
+                        </div>
                     </div>
-                </li>
-            </ul>
-          </nav>
+                    <li class="navbar__items">
 
-
-
-        <div class="container">
-            <div class="header">
-                <div class="header__title">
-                    <h1>Ersin</h1> 
-                </div>
-                <div class="header__text">
-                    This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit.
-                </div>
-                <div class="header__btn"><a href="#">LEARN MORE</a></div>
+                        <div class="navbar__links">
+                            <div class="navbar__link"><a href="#">HOME</a></div>
+                            <div class="navbar__link"><a href="#">ABOUT</a></div>
+                            <div class="navbar__link"><a href="#">EXPERTISE</a></div>
+                            <div class="navbar__link"><a href="#">TEAMS </a></div>
+                            <div class="navbar__link"><a href="#">WORKS</a></div>
+                            <div class="navbar__link"><a href="#">PEOPLE SAY</a></div>
+                            <div class="navbar__link"><a href="#">CONTACT</a></div>
+                        </div>
+                    </li>
+                </ul>
             </div>
-            
+        </nav>
+
+
+
+        <div class="container text-center d-flex justify-content-center">
+            <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                
+                <div class="carousel-inner ">
+                    <div class="carousel-item  active">
+                        <div class="header__title">
+                            <h1>We Are Awesome Creative Agency</h1>
+                        </div>
+                        <div class="header__text ">
+                            This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor
+                            aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat
+                            ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate
+                            cursus a sit amet mauris. Morbi accumsan ipsum velit.
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="header__title">
+                            <h1>Weasdsdasd Awesome Creative Agency</h1>
+                        </div>
+                        <div class="header__text">
+                            This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor
+                            aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat
+                            ipsum,
+                            nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a
+                            sit
+                            amet mauris. Morbi accumsan ipsum velit.
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="header__title">
+                            <h1>We Are Awesome Creative Agency</h1>
+                        </div>
+                        <div class="header__text">
+                            This sdasdsdis Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit
+                            auctor
+                            aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat
+                            ipsum,
+                            nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a
+                            sit
+                            amet mauris. Morbi accumsan ipsum velit.
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
+            
+              
+                        
+                  
+     
+        <div class="col-md-12 justify-content-center">
+            <div class="header__btn"><a href="#">LEARN MORE</a></div>
+        </div>
+
+
     </header>
+   
+
+
     <div class="something">
         <h2>Face font Freee3</h2>
     </div>
     <footer>
 
     </footer>
+
 </body>
+
 </html>
