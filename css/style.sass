@@ -12,7 +12,7 @@ body
     flex-direction: column
     justify-content: space-between
 
-@font-face 
+@font-face
     font-family: 'Roboto'
     src: url('../fonts/roboto_black.eot')
     src: url('../fonts/roboto_black.eot?#iefix') format('embedded-opentype')
@@ -20,7 +20,7 @@ body
     src: url('../fonts/roboto_black.woff') format('woff')
     src: url('../fonts/roboto_black.ttf') format('truetype')
     src: url('../fonts/roboto_black.svg#roboto_black') format('svg')
-@font-face 
+@font-face
     font-family: 'Impact'
     src: url('../fonts/impact.eot') /* IE 9 Compatibility Mode */
     src: url('../fonts/impact.eot?#iefix') format('embedded-opentype') /* IE < 9 */
@@ -40,7 +40,7 @@ nav
     flex-direction: column
     justify-content: center
     min-height: 8vh
-    background-color:none
+    background-color: none
 header
     background-image: url(../img/header__bg.jpg)
     background-size: cover
@@ -50,8 +50,10 @@ header
     display: flex
     flex-direction: column
     align-items: center
+    
     &__title
-        
+        text-align: center
+
         h1
             font-family: 'Playfair Display', serif
             color: #ffffff
@@ -69,7 +71,7 @@ header
             background-color: #00e0d0
     &__text
         width: 771px
-        
+
         color: #ffffff
         font-family: $Roboto
         font-size: 14px
@@ -80,9 +82,10 @@ header
         text-align: center
         margin: 30px 0 50px 0
     &__btn
+        justify-content: center
         width: 125px
         color: #00e0d0
-        text-align: center
+        
         padding: 15px
         border: 1px solid #00e0d0
         a
@@ -101,23 +104,21 @@ header
     justify-content: space-around
     align-items: center
     &__items
+        margin-left: auto
         text-decoration: none
         list-style: none
     &__links
-            display: flex
-            justify-content: space-around
+        display: flex
+        justify-content: space-around
     &__link
-                margin-right: 10px
-                text-decoration: none
-                a
-                    text-decoration: none
-                    font-family: $Roboto
-                    color: $white
-                a:hover
-                    color: #00e0d0 
-
-                      
-    
+        margin-right: 10px
+        text-decoration: none
+        a
+            text-decoration: none
+            font-family: $Roboto
+            color: $white
+            a:hover
+                color: #00e0d0
 
 .logo
     display: flex
@@ -131,9 +132,18 @@ header
             -webkit-background-clip: text
             background-image: linear-gradient(to right, #00e0d0 0%, #4aa3cc 100%)
             background-clip: text
-            
+
 .container
     display: flex
     width: 80%
     margin: 0 auto
     justify-content: center
+
+.bg-dark
+    background-color: #000
+
+.carousel-indicators li 
+    width: 10px !important
+    height: 10px !important
+    border-radius: 100%
+

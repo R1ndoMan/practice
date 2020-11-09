@@ -55,7 +55,8 @@ nav {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  min-height: 8vh; }
+  min-height: 8vh;
+  background-color: none; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/project\/started\/project1\/css\/style\.sass}line{font-family:\0000344}}
 header {
@@ -75,24 +76,27 @@ header {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/project\/started\/project1\/css\/style\.sass}line{font-family:\0000355}}
-  .header__title h1 {
-    font-family: "Playfair Display", serif;
-    color: #ffffff;
-    font-size: 32px;
-    font-weight: 900;
-    font-style: normal;
-    margin: 185px 0 21px 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/project\/started\/project1\/css\/style\.sass}line{font-family:\0000362}}
-  .header__title::after {
-    content: "";
-    display: block;
-    margin-top: 21px;
-    width: 50px;
-    margin: 0 auto;
-    height: 1px;
-    background-color: #00e0d0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/project\/started\/project1\/css\/style\.sass}line{font-family:\0000370}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/project\/started\/project1\/css\/style\.sass}line{font-family:\0000354}}
+  .header__title {
+    text-align: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/project\/started\/project1\/css\/style\.sass}line{font-family:\0000357}}
+    .header__title h1 {
+      font-family: "Playfair Display", serif;
+      color: #ffffff;
+      font-size: 32px;
+      font-weight: 900;
+      font-style: normal;
+      margin: 185px 0 21px 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/project\/started\/project1\/css\/style\.sass}line{font-family:\0000364}}
+    .header__title::after {
+      content: "";
+      display: block;
+      margin-top: 21px;
+      width: 50px;
+      margin: 0 auto;
+      height: 1px;
+      background-color: #00e0d0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/project\/started\/project1\/css\/style\.sass}line{font-family:\0000372}}
   .header__text {
     width: 771px;
     color: #ffffff;
@@ -104,14 +108,16 @@ header {
     line-height: 24px;
     text-align: center;
     margin: 30px 0 50px 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/project\/started\/project1\/css\/style\.sass}line{font-family:\0000382}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/project\/started\/project1\/css\/style\.sass}line{font-family:\0000384}}
   .header__btn {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     width: 125px;
     color: #00e0d0;
-    text-align: center;
     padding: 15px;
     border: 1px solid #00e0d0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/project\/started\/project1\/css\/style\.sass}line{font-family:\0000388}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/project\/started\/project1\/css\/style\.sass}line{font-family:\0000391}}
     .header__btn a {
       text-decoration: none;
       color: #00e0d0;
@@ -120,11 +126,11 @@ header {
       font-weight: 400;
       text-align: center;
       text-transform: uppercase; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/project\/started\/project1\/css\/style\.sass}line{font-family:\0000396}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/project\/started\/project1\/css\/style\.sass}line{font-family:\0000399}}
     .header__btn a:hover {
       color: #fff; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/project\/started\/project1\/css\/style\.sass}line{font-family:\0000399}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/project\/started\/project1\/css\/style\.sass}line{font-family:\00003102}}
 .navbar {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -134,31 +140,32 @@ header {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/project\/started\/project1\/css\/style\.sass}line{font-family:\00003103}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/project\/started\/project1\/css\/style\.sass}line{font-family:\00003106}}
   .navbar__items {
+    margin-left: auto;
     text-decoration: none;
     list-style: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/project\/started\/project1\/css\/style\.sass}line{font-family:\00003106}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/project\/started\/project1\/css\/style\.sass}line{font-family:\00003110}}
   .navbar__links {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-pack: distribute;
         justify-content: space-around; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/project\/started\/project1\/css\/style\.sass}line{font-family:\00003109}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/project\/started\/project1\/css\/style\.sass}line{font-family:\00003113}}
   .navbar__link {
     margin-right: 10px;
     text-decoration: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/project\/started\/project1\/css\/style\.sass}line{font-family:\00003112}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/project\/started\/project1\/css\/style\.sass}line{font-family:\00003116}}
     .navbar__link a {
       text-decoration: none;
       font-family: "Roboto", Helvetica, sans-serif;
       color: #fff; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/project\/started\/project1\/css\/style\.sass}line{font-family:\00003116}}
-    .navbar__link a:hover {
-      color: #00e0d0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/project\/started\/project1\/css\/style\.sass}line{font-family:\00003120}}
+      .navbar__link a a:hover {
+        color: #00e0d0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/project\/started\/project1\/css\/style\.sass}line{font-family:\00003122}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/project\/started\/project1\/css\/style\.sass}line{font-family:\00003123}}
 .logo {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -169,10 +176,10 @@ header {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/project\/started\/project1\/css\/style\.sass}line{font-family:\00003126}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/project\/started\/project1\/css\/style\.sass}line{font-family:\00003127}}
   .logo__label {
     margin-left: 11px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/project\/started\/project1\/css\/style\.sass}line{font-family:\00003128}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/project\/started\/project1\/css\/style\.sass}line{font-family:\00003129}}
     .logo__label a {
       font-family: "Roboto", Helvetica, sans-serif;
       color: transparent;
@@ -181,7 +188,7 @@ header {
       background-image: linear-gradient(to right, #00e0d0 0%, #4aa3cc 100%);
       background-clip: text; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/project\/started\/project1\/css\/style\.sass}line{font-family:\00003135}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/project\/started\/project1\/css\/style\.sass}line{font-family:\00003136}}
 .container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -191,5 +198,15 @@ header {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/project\/started\/project1\/css\/style\.sass}line{font-family:\00003142}}
+.bg-dark {
+  background-color: #000; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/project\/started\/project1\/css\/style\.sass}line{font-family:\00003145}}
+.carousel-indicators li {
+  width: 10px !important;
+  height: 10px !important;
+  border-radius: 100%; }
 
 /*# sourceMappingURL=style.css.map */
